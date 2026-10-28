@@ -1,0 +1,4 @@
+Input: (none)
+Is 1 equals 2?: 0
+Is 1less than 2?: 1
+Is 1less than 2 and 3 less than 4: 1

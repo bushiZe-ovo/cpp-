@@ -1,0 +1,2 @@
+Input: 7
+Score (0-10 integer): 你认为电影非常好

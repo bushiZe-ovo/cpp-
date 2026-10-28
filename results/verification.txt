@@ -1,0 +1,44 @@
+01_bonus | input=0 | Profit (yuan): Bonus (yuan): 0.00 | PASS
+01_bonus | input=100000 | Profit (yuan): Bonus (yuan): 10000.00 | PASS
+01_bonus | input=200000 | Profit (yuan): Bonus (yuan): 17500.00 | PASS
+01_bonus | input=400000 | Profit (yuan): Bonus (yuan): 27500.00 | PASS
+01_bonus | input=600000 | Profit (yuan): Bonus (yuan): 33500.00 | PASS
+01_bonus | input=1000000 | Profit (yuan): Bonus (yuan): 39500.00 | PASS
+01_bonus | input=1200000 | Profit (yuan): Bonus (yuan): 41500.00 | PASS
+01_bonus | input=-1 | Profit (yuan): Invalid input | PASS
+02_movie | input=0 | Score (0-10 integer): 你认为电影烂片 | PASS
+02_movie | input=4 | Score (0-10 integer): 你认为电影烂片 | PASS
+02_movie | input=5 | Score (0-10 integer): 你认为电影一般 | PASS
+02_movie | input=6 | Score (0-10 integer): 你认为电影一般 | PASS
+02_movie | input=7 | Score (0-10 integer): 你认为电影非常好 | PASS
+02_movie | input=8 | Score (0-10 integer): 你认为电影非常好 | PASS
+02_movie | input=9 | Score (0-10 integer): 你认为电影经典 | PASS
+02_movie | input=10 | Score (0-10 integer): 你认为电影经典 | PASS
+02_movie | input=11 | Score (0-10 integer): Invalid input | PASS
+03_palindrome | input=0 | Integer: Palindrome | PASS
+03_palindrome | input=7 | Integer: Palindrome | PASS
+03_palindrome | input=1221 | Integer: Palindrome | PASS
+03_palindrome | input=12321 | Integer: Palindrome | PASS
+03_palindrome | input=123 | Integer: Not palindrome | PASS
+03_palindrome | input=-121 | Integer: Not palindrome | PASS
+03_palindrome | input=2147483647 | Integer: Not palindrome | PASS
+04_armstrong | input=153 | Three-digit integer: Armstrong number
+All three-digit Armstrong numbers: 153 370 371 407 | PASS
+04_armstrong | input=370 | Three-digit integer: Armstrong number
+All three-digit Armstrong numbers: 153 370 371 407 | PASS
+04_armstrong | input=371 | Three-digit integer: Armstrong number
+All three-digit Armstrong numbers: 153 370 371 407 | PASS
+04_armstrong | input=407 | Three-digit integer: Armstrong number
+All three-digit Armstrong numbers: 153 370 371 407 | PASS
+04_armstrong | input=100 | Three-digit integer: Not Armstrong number
+All three-digit Armstrong numbers: 153 370 371 407 | PASS
+04_armstrong | input=99 | Three-digit integer: Invalid input | PASS
+05_series | input=3 2 | n and a (n >= 1, 1 <= a <= 9): Sum: 246 | PASS
+05_series | input=1 9 | n and a (n >= 1, 1 <= a <= 9): Sum: 9 | PASS
+05_series | input=2 1 | n and a (n >= 1, 1 <= a <= 9): Sum: 12 | PASS
+05_series | input=0 2 | n and a (n >= 1, 1 <= a <= 9): Invalid input | PASS
+05_series | input=2 10 | n and a (n >= 1, 1 <= a <= 9): Invalid input | PASS
+05_series | input=19 9 | n and a (n >= 1, 1 <= a <= 9): Overflow | PASS
+07_rabbits | all 20 months checked by independent age-group simulation | PASS
+06_table | 45 products checked | PASS
+08_peaches | input= | Peaches on day 1: 1534 | PASS

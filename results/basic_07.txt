@@ -1,0 +1,4 @@
+Input: (none)
+nAreaFloat = 95.0332 , sizeof(nAreaFloat) = 4
+nAreaDouble = 95.0332 , sizeof(nAreaDouble) = 8
+nAreaLDouble = 95.0332 , sizeof(nAreaLDouble) = 8

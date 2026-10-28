@@ -1,0 +1,10 @@
+Input: (none)
+Min of short is: -32768
+Max of short is: 32767
+Min of int is: -2147483648
+Max of int is: 2147483647
+Min of long is: -9223372036854775808
+Max of long is: 9223372036854775807
+Max of unsigned short is: 65535
+Max of unsigned int is: 4294967295
+Max of unsigned long is: 18446744073709551615

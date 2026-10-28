@@ -1,0 +1,2 @@
+Input: 1200000
+Profit (yuan): Bonus (yuan): 41500.00

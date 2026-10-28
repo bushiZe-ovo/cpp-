@@ -1,0 +1,5 @@
+Input: (none)
+bool value bV1 = 1
+bool value bV2 = 0
+int value nV1 = 1
+bool value bV1 = 0

@@ -1,0 +1,12 @@
+Input: (none)
+ival1= 1
+ival2= 2
+ival1= 97
+ival2= 0
+fval= 0
+cval= a
+ival3= 8
+fval= 8
+ival1 = 97, ival2 = 0
+ival2 = -ival1++, ival1= 98, ival2 = -97
+ival1 = ++ival2+ival1, ival1= 2

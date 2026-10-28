@@ -1,0 +1,11 @@
+Input: (none)
+int/int, 24/5= 4
+int/int, 24%5= 4
+int/int, 24%(-5)= 4
+double/double, 24/5= 4.8
+double/int, 24/5= -4.8
+int/double, 24/5= 4.8
+val1 = 5
+5, 7, 7, 5
+val1 = 5
+5, 7, 7, 5

@@ -1,0 +1,2 @@
+Input: (none)
+Peaches on day 1: 1534
