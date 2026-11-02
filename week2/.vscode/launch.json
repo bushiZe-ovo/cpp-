@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "调试当前 C++ 文件（LLDB）",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/${fileBasenameNoExtension}",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "MIMode": "lldb",
+      "preLaunchTask": "编译当前 C++ 文件"
+    }
+  ]
+}

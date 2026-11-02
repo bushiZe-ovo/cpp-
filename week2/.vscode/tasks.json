@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "编译当前 C++ 文件",
+      "type": "process",
+      "command": "/usr/bin/clang++",
+      "args": [
+        "-std=c++17",
+        "-g",
+        "-O0",
+        "-Wall",
+        "-Wextra",
+        "${file}",
+        "-o",
+        "${workspaceFolder}/build/${fileBasenameNoExtension}"
+      ],
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
