@@ -4,6 +4,8 @@
 
 本文件夹按《实验课件03-函数》整理：`src/classroom` 是 7 个课堂练习，`src/assignments` 是 5 道教材习题。每个 `.cpp` 都有自己的 `main`，应单独编译、运行和调试。`build` 只保存编译生成的程序，GitHub 提交时不需要上传生成的可执行文件。课件中的中文弯引号、全角逗号等排版字符已改成标准 C++ 写法。
 
+实验报告为 [实验03_函数实验报告.docx](实验03_函数实验报告.docx)。报告已填写题目、设计思路、源代码及预期结果；请实际运行程序后，在对应位置填入运行结果或截图、调试观察和个人总结。
+
 ## 在 VS Code 中运行
 
 1. 启动 VS Code，选择“文件 → 打开文件夹”，打开**本文件夹** `实验03_函数提交材料`。不要只打开一个 `.cpp` 文件，否则编译设置无法定位到 `build` 文件夹。
@@ -59,4 +61,4 @@ clang++ -std=c++17 -g -O0 -Wall -Wextra src/assignments/3-9_prime.cpp -o build/3
 
 ## GitHub 上传
 
-上传本文件夹内的 `.vscode`、`src`、`build/.gitkeep`、`.gitignore`、`README.md`，保留层级；`build` 中后来生成的程序不需要上传。若浏览器上传隐藏了 `.vscode`，可以使用 GitHub Desktop 或 Git 命令提交。课程若要求报告或运行截图，请在自己实际运行后补充；本材料没有替你生成结果截图。
+上传本文件夹内的实验报告、`.vscode`、`src`、`build/.gitkeep`、`.gitignore`、`README.md`，保留层级；`build` 中后来生成的程序不需要上传。若浏览器上传隐藏了 `.vscode`，可以使用 GitHub Desktop 或 Git 命令提交。请在自己实际运行后补充报告中的结果与截图；本材料没有替你生成结果截图。
