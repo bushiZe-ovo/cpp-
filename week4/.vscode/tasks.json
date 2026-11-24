@@ -1,0 +1,389 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "array_1_storage"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "运行 数组 1 静态与自动局部数组",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "array_1_storage",
+        "build"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "编译 数组 1 静态与自动局部数组",
+      "hide": true
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "array_2_parameter"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "运行 数组 2 数组与元素作实参",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "array_2_parameter",
+        "build"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "编译 数组 2 数组与元素作实参",
+      "hide": true
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "array_3_const"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "运行 数组 3 const 数组形参",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "array_3_const",
+        "build"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "编译 数组 3 const 数组形参",
+      "hide": true
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "array_4_gradebook"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "运行 数组 4 一维 GradeBook",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "array_4_gradebook",
+        "build"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "编译 数组 4 一维 GradeBook",
+      "hide": true
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "array_5_gradebook_2d"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "运行 数组 5 二维 GradeBook",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "array_5_gradebook_2d",
+        "build"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "编译 数组 5 二维 GradeBook",
+      "hide": true
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "pointer_1_step"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "运行 指针 1 指针加减整数",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "pointer_1_step",
+        "build"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "编译 指针 1 指针加减整数",
+      "hide": true
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "pointer_4_sort"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "运行 指针 4 选择排序",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "pointer_4_sort",
+        "build"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "编译 指针 4 选择排序",
+      "hide": true
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "6-17"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "运行 6-17 未初始化指针",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "6-17",
+        "build"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "编译 6-17 未初始化指针",
+      "hide": true
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "6-18"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "运行 6-18 动态内存释放",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "6-18",
+        "build"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "编译 6-18 动态内存释放",
+      "hide": true
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "6-21"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "运行 6-21 统计英文字母",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "6-21",
+        "build"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "编译 6-21 统计英文字母",
+      "hide": true
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "6-22"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "运行 6-22 递归逆序",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "6-22",
+        "build"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "编译 6-22 递归逆序",
+      "hide": true
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "6-29"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "运行 6-29 不相容类型的指针",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "type": "process",
+      "command": "/bin/bash",
+      "args": [
+        "${workspaceFolder}/run.sh",
+        "6-29",
+        "build"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "label": "编译 6-29 不相容类型的指针",
+      "hide": true
+    }
+  ]
+}

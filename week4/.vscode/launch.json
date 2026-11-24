@@ -1,0 +1,121 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "数组 1 静态与自动局部数组",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/array_1_storage",
+      "cwd": "${workspaceFolder}",
+      "terminal": "integrated",
+      "preLaunchTask": "编译 数组 1 静态与自动局部数组"
+    },
+    {
+      "name": "数组 2 数组与元素作实参",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/array_2_parameter",
+      "cwd": "${workspaceFolder}",
+      "terminal": "integrated",
+      "preLaunchTask": "编译 数组 2 数组与元素作实参"
+    },
+    {
+      "name": "数组 3 const 数组形参",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/array_3_const",
+      "cwd": "${workspaceFolder}",
+      "terminal": "integrated",
+      "preLaunchTask": "编译 数组 3 const 数组形参"
+    },
+    {
+      "name": "数组 4 一维 GradeBook",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/array_4_gradebook",
+      "cwd": "${workspaceFolder}",
+      "terminal": "integrated",
+      "preLaunchTask": "编译 数组 4 一维 GradeBook"
+    },
+    {
+      "name": "数组 5 二维 GradeBook",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/array_5_gradebook_2d",
+      "cwd": "${workspaceFolder}",
+      "terminal": "integrated",
+      "preLaunchTask": "编译 数组 5 二维 GradeBook"
+    },
+    {
+      "name": "指针 1 指针加减整数",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/pointer_1_step",
+      "cwd": "${workspaceFolder}",
+      "terminal": "integrated",
+      "preLaunchTask": "编译 指针 1 指针加减整数"
+    },
+    {
+      "name": "指针 4 选择排序",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/pointer_4_sort",
+      "cwd": "${workspaceFolder}",
+      "terminal": "integrated",
+      "preLaunchTask": "编译 指针 4 选择排序"
+    },
+    {
+      "name": "6-17 未初始化指针",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/6-17",
+      "cwd": "${workspaceFolder}",
+      "terminal": "integrated",
+      "preLaunchTask": "编译 6-17 未初始化指针"
+    },
+    {
+      "name": "6-18 动态内存释放",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/6-18",
+      "cwd": "${workspaceFolder}",
+      "terminal": "integrated",
+      "preLaunchTask": "编译 6-18 动态内存释放"
+    },
+    {
+      "name": "6-21 统计英文字母",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/6-21",
+      "cwd": "${workspaceFolder}",
+      "terminal": "integrated",
+      "preLaunchTask": "编译 6-21 统计英文字母"
+    },
+    {
+      "name": "6-22 递归逆序",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/6-22",
+      "cwd": "${workspaceFolder}",
+      "terminal": "integrated",
+      "preLaunchTask": "编译 6-22 递归逆序"
+    },
+    {
+      "name": "6-29 不相容类型的指针",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/6-29",
+      "cwd": "${workspaceFolder}",
+      "terminal": "integrated",
+      "preLaunchTask": "编译 6-29 不相容类型的指针"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/daimengzhe/Documents/Codex/2026-11-24/ppt-pdf-c-2025302142113-weekx-vs/outputs/week4/src/array_1_storage",
+      "program": "/Users/daimengzhe/Documents/Codex/2026-11-24/ppt-pdf-c-2025302142113-weekx-vs/outputs/week4/src/array_1_storage/build/Debug/outDebug"
+    }
+  ]
+}
